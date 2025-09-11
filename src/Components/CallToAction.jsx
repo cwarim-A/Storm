@@ -23,7 +23,7 @@ const CallToAction = () => {
     //   </div>
     // </div>
     <div className="flex items-center px-5 py-10 md:px-[100px] lg:px-[200px] md:py-[60px]">
-      <div className="bg-[#E3E3E3] relative rounded-2xl w-full max-w-[950px] h-[600px] md:h-[335px]">
+      <div className="bg-[#E3E3E3] relative rounded-2xl w-full max-w-[950px] h-[550px] md:h-[335px]">
 
         {/* Text Section */}
         <div className="absolute top-[5%] left-[3%] md:top-[12%] md:left-[5%]">
@@ -44,7 +44,7 @@ const CallToAction = () => {
         </div>
 
         {/* Image Section */}
-        <div className="absolute top-[55%] right-[5%] md:top-[10%] md:right-[2%] -translate-y-1/2 md:translate-y-0">
+        <div className="absolute top-[77%] right-[5%] md:top-[10%] md:right-[2%] -translate-y-1/2 md:translate-y-0">
           <img
             src="/Home.png"
             alt="Phone Image"
