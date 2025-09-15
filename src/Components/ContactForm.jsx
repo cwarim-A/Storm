@@ -5,7 +5,7 @@ const ContactForm = () => {
         
         <div className="px-5 pt-20   md:px-16 lg:px-[150px] md:py-16 bg-[#FCFAFF99] md:h-[600px]  ">
             
-            <div className="absolute  w-[340px] md:w-[650px] lg:w-[1024px] flex flex-col lg:flex-row justify-center gap-10 shadow-lg bg-white  overflow-hidden">
+            <div className="  w-[380px] md:w-[650px] lg:w-[1024px] flex flex-col lg:flex-row justify-center gap-10 shadow-lg bg-white  overflow-hidden">
                 {/* Left Section - Image */}
                 <div className="w-full lg:w-1/2 relative flex justify-center">
                     <img
@@ -22,7 +22,8 @@ const ContactForm = () => {
 
                 {/* Right Section - Contact Form */}
                 <div className="w-full lg:w-1/2 flex flex-col px-6 md:px-12 py-10">
-                    <h2 className="text-[#E2BF00] bg-[#FEDE2B29] px-4 py-2 rounded-2xl lg:w-[40%] self-end text-center font-semibold">
+                    <h2 className="text-black bg-[#FEDE2B29] px-4 py-2 rounded-2xl w-full lg:w-[40%]
+                    self-start md:self-end text-center font-semibold">
                         Contact Us
                     </h2>
 

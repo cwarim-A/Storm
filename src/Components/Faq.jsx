@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FiPlus } from 'react-icons/fi'
 import { LiaTimesSolid } from 'react-icons/lia'
+import { Link } from 'react-router-dom'
 
 const faqs = [
     {
@@ -34,7 +35,7 @@ const Faq = () => {
     const [active, setActive] = useState(null)
     return (
         <div className='flex flex-col justify-center py-10 px-10 md:px-20'>
-            <h2 className="text-[#E2BF00] bg-[#FEDE2B29] px-2 py-2 rounded-2xl lg:w-[22%] text-center font-semibold">
+            <h2 className="text-black bg-[#FEDE2B29] px-2 py-2 rounded-2xl lg:w-[22%] text-center font-semibold">
                 Frequently Asked Questions
             </h2>
             <div className="flex flex-col gap-5 py-10" >
@@ -60,6 +61,7 @@ const Faq = () => {
                     </div>
                 ))}
             </div>
+            <Link className='underline text-[#B99F0A]'>See more questions that can help you!</Link>
         </div>
     )
 }

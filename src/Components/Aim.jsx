@@ -15,18 +15,18 @@ const Aim = () => {
                         <img
                             src="/Subtract.png"
                             alt="Subtract"
-                            className='absolute top-0 right-20 md:right-0 h-[350px] w-[300px] md:h-[400px] md:w-[200px]'
+                            className='hidden md:block absolute top-0 right-25 md:right-0 h-[350px] w-[150px] md:h-[400px] md:w-[200px]'
                         />
                     </div>
                 </div>
 
                 {/* Right side with text */}
                 <div className=''>
-                    <h2 className='text-[#E2BF00] bg-[#FEDE2B29] text-center px-1 py-2 rounded-tr-2xl rounded-br-2xl md:w-[20%] w-full'>
+                    <h2 className='text-black bg-[#FEDE2B29] text-center px-1 py-2 rounded-2xl md:w-[20%] w-full'>
                         Our Aim
                     </h2>
                     <div className='flex flex-col gap-3 py-5'>
-                        <p className='text-[#232323] text-[12px] leading-normal max-w-[410px]'>
+                        <p className='text-[#232323] text-[12px] leading-loose md:leading-normal max-w-[410px]'>
                             Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.
                         </p>
                     </div>
