@@ -30,12 +30,12 @@ const PrivacyPolicy = () => {
         <img
           src="/Privacy-policy.png"
           alt="Privacy Policy Illustration"
-          className=" w-full max-w-[450px] object-contain"
+          className=" w-full max-w-[450px] object-contain "
         />
         <img
           src="/Subtract.png"
           alt="Decorative Shape"
-          className="hidden md:block absolute top-0 right-0 md:right-5 h-[250px] md:h-full"
+          className="hidden md:hidden lg:block absolute top-0 right-0 md:right-5 h-[250px] md:h-full"
         />
       </div>
 

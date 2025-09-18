@@ -3,15 +3,15 @@ import React from 'react'
 const ContactForm = () => {
     return (
         
-        <div className="px-5 pt-20   md:px-16 lg:px-[150px] md:py-16 bg-[#FCFAFF99] md:h-[600px]  ">
+        <div className="px-5 pt-20   md:px-12 lg:px-[150px] md:py-16 bg-[#FCFAFF99] md:h-[700px] lg:h-[600px]  ">
             
-            <div className=" w-full max-w-[1024px] flex flex-col lg:flex-row justify-center items-center gap-10 shadow-lg bg-white  overflow-hidden">
+            <div className=" w-full max-w-[1024px] flex flex-col md:flex-row lg:flex-row justify-center items-center md:gap-5  lg:gap-10 shadow-lg bg-white  overflow-hidden">
                 {/* Left Section - Image */}
-                <div className="w-full lg:w-1/2 relative flex justify-center">
+                <div className="w-full md:w-1/2 lg:w-1/2 relative flex justify-center">
                     <img
                         src="/customer-care.png"
                         alt="Customer support"
-                        className="h-[300px] sm:h-[400px] lg:h-[510px] w-full lg:w-[490px] object-cover"
+                        className="h-[300px] sm:h-[400px] md:h-[550px] lg:h-[510px] w-full md:w-[700px] lg:w-[490px] object-cover"
                     />
                     <img
                         src="/Subtract.png"
@@ -21,7 +21,7 @@ const ContactForm = () => {
                 </div>
 
                 {/* Right Section - Contact Form */}
-                <div className="w-full lg:w-1/2 flex flex-col px-6 md:px-12 py-10">
+                <div className="w-full md:w-1/2 lg:w-1/2 flex flex-col px-6 md:px-12 py-10">
                     <h2 className="text-black bg-[#FEDE2B29] px-4 py-2 rounded-2xl w-full lg:w-[40%]
                     self-start md:self-end text-center font-semibold">
                         Contact Us

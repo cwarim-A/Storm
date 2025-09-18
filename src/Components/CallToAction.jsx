@@ -22,7 +22,7 @@ const CallToAction = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="flex items-center px-5 py-10 md:px-[10px] lg:px-[180px] md:py-[60px]">
+    <div className="flex items-center px-5 py-10 md:px-[15px] lg:px-[180px] md:py-[60px]">
       <div className="bg-[#E3E3E3] relative rounded-2xl w-full max-w-[950px] h-[550px] md:h-[335px]">
 
         {/* Text Section */}
