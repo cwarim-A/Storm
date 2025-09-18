@@ -24,6 +24,9 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'react/jsx-uses-react': 'off', // ✅ React 17+ with new JSX transform
+      'react/jsx-uses-vars': 'error', // ✅ Fix motion false positive
+
     },
   },
 ])
