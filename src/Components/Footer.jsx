@@ -5,14 +5,16 @@ const footerLinks = [
     {
         title:"Quick Links",
         sublinks: [
-            "Home","About Us", "contact"
+            { name: "Home", path: "/" },
+            { name: "About Us", path: "/about" },
+            { name: "Contact", path: "/contact" },
         ]
     },
     {
         title:"Other Pages",
         sublinks:[
-            "Privacy Policy",
-            "FAQ"
+            { name: "Privacy Policy", path: "/privacy-policy" },
+            { name: "FAQ", path: "/faq" },
         ]
     }
 ]
@@ -103,13 +105,14 @@ const Footer = () => {
                                     {link.sublinks.map((sublink, subIndex) => (
                                         <li key={subIndex}>
                                             <Link
-                                                to={``}
+                                                to={sublink.path}
                                                 className="hover:text-gray-300 transition"
                                             >
-                                                {sublink}
+                                                {sublink.name}
                                             </Link>
                                         </li>
                                     ))}
+
                                 </ul>
                             </div>
                         ))
