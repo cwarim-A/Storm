@@ -9,7 +9,7 @@ const services = [
         desc:"Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod temporincidiunt ut labore"
     },
     {
-        icon: "/create-icon.png",
+        icon: "/viral-marketing.png",
         title: "Become a celebrity. Go viral",
         desc: "Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod temporincidiunt ut labore"
     },
