@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
 
       {/* Right Side - Text */}
       <div className="w-full md:w-1/2 lg:w-2/5 flex flex-col gap-5">
-        <h2 className="bg-[#FEDE2B29] text-[#E2BF00] text-sm sm:text-base md:text-lg font-semibold w-full md:w-[40%] text-center py-2 rounded-2xl">
+        <h2 className="bg-[#FEDE2B29] text-black text-sm sm:text-base md:text-lg font-semibold w-full md:w-[40%] text-center py-2 rounded-2xl">
           Privacy Policy
         </h2>
         <p className="text-[#232323] text-sm sm:text-[14px] leading-relaxed md:leading-normal max-w-[600px]">
