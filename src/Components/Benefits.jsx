@@ -24,15 +24,15 @@ const benefits = [
 const Benefits = () => {
   return (
     <div className=' px-5 pt-180 md:px-[30px] lg:px-[200px] md:pt-50 pb-10'>
-         <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center gap-[50px] '>
-            <div className='w-full md:w-2/5 relative'>
+         <div className='flex flex-col md:flex-row lg:flex-row items-center justify-center md:gap-[15px] lg:gap-[50px] '>
+            <div className='w-full lg:w-2/5 relative'>
                 <img src="/People-collaborating.png" alt="People collaborating" className=' md:h-[420px] md:w-full  lg:h-auto lg:w-full' />
-                <img src="/Subtract.png" alt="Subtract" className=' hidden md:block lg:h-[480px] md:h-[420px] md:w-[200px]
+                <img src="/Subtract.png" alt="Subtract" className=' hidden lg:block lg:h-[480px] md:h-[420px] md:w-[200px]
                 lg:w-[300px]  absolute top-0 -right-[50px]' />
                   
 
             </div>
-            <div className='w-full md:w-3/5'>
+            <div className='w-full lg:w-3/5'>
                   <h2 className='text-black bg-[#FEDE2B29] text-center px-2 py-2 rounded-2xl md:w-[60%] lg:w-[40%] w-full '>Benefits of Using Storm</h2>
                   <div className='flex flex-col gap-3 py-5'>
                       <h1 className='text-2xl md:text-3xl text-[#1D2939]'>The Best Debating Platform</h1>

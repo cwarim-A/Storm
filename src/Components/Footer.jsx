@@ -40,7 +40,7 @@ const socialIcon = [
 const Footer = () => {
   return (
       <div className='bg-[#0B0900] h-auto  text-white'>
-          <div className='flex flex-col md:flex-row  gap-20 px-5 md:px-12 pt-20 pb-10'>
+          <div className='flex flex-col md:flex-col lg:flex-row   gap-20 px-5 md:px-12 pt-20 pb-10'>
               {/* <div className='bg-[#1E1E1E]  md:w-[400px] flex flex-col justify-center items-center rounded-2xl md:px-2 '>
                   <img src="/storm-logo.png" alt="Storm Logo" className='w-[200px]' />
                   <div className=' flex gap-5 text-white py-7 px-7'>
@@ -62,7 +62,7 @@ const Footer = () => {
                       </Link>  
                   </div>
              </div> */}
-              <div className="bg-[#1E1E1E] w-[100%] sm:w-[350px] md:w-[400px] flex flex-col justify-center items-center rounded-2xl px-2">
+              <div className="bg-[#1E1E1E] w-[100%] sm:w-[350px] md:w-full lg:w-[400px] md:py-5 flex flex-col justify-center items-center rounded-2xl px-2">
                   <img
                       src="/storm-logo-white.png"
                       alt="Storm Logo"
@@ -142,7 +142,7 @@ const Footer = () => {
                 </div>
             </div>
           <hr className='border-[#F9FAFB2E]' />
-          <div className='flex flex-col gap-3 md:flex-row  justify-between items-center  text-sm px-5 md:px-46 py-5 text-[#969696]'>
+          <div className='flex flex-col gap-3 md:flex-row  justify-between items-center  text-sm px-5 lg:px-46 md:px-14 py-5 text-[#969696]'>
               <p className=''>Privacy Policy | Terms of Service</p>
               <p className=''>Copyright © 2025. All rights reserved.</p>
           </div>

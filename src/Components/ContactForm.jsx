@@ -5,7 +5,7 @@ const ContactForm = () => {
         
         <div className="px-5 pt-20   md:px-16 lg:px-[150px] md:py-16 bg-[#FCFAFF99] md:h-[600px]  ">
             
-            <div className="  w-[380px] md:w-[650px] lg:w-[1024px] flex flex-col lg:flex-row justify-center gap-10 shadow-lg bg-white  overflow-hidden">
+            <div className=" w-full max-w-[1024px] flex flex-col lg:flex-row justify-center items-center gap-10 shadow-lg bg-white  overflow-hidden">
                 {/* Left Section - Image */}
                 <div className="w-full lg:w-1/2 relative flex justify-center">
                     <img
