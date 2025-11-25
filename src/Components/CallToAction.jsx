@@ -35,7 +35,7 @@ const CallToAction = () => {
             As AI becomes more advanced, some argue it could reduce <br /> human bias in courtrooms.
           </p>
 
-          <button className="bg-[#FEDE2B] py-3 px-5 w-[50%] md:w-[35%] lg:w-[30%] text-center rounded-xl text-[12px] md:text-[14px] font-bold mt-5 relative cursor-pointer">
+          <button className="bg-[#FEDE2B] py-3 px-5 w-[50%] md:w-[35%] lg:w-[30%] text-center rounded-3xl text-[12px] md:text-[14px] font-bold mt-5 relative cursor-pointer">
             Join Debate
             <span className="absolute -right-[12%] top-1/2 -translate-y-1/2 bg-white h-10 w-10 flex items-center justify-center rounded-full">
               <GoArrowUpRight size={20} />

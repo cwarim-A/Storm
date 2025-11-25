@@ -9,8 +9,7 @@ const HeroSection = () => {
         <button className='bg-[#FEDE2B33] text-[#FFD800] rounded-3xl py-2 w-[60%] md:w-[30%]'>Welcome to Storm</button>
         <h1 className=' text-[20px]   md:text-[60px] leading-normal md:leading-[80px] font-semibold'>Let your voice be <br /> heard with Storm</h1>
         <p className='w-full text-[16px]'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius <br />
-          tempor incididunt ut labore et dolore magna aliqua. enim minim <br /> veniam, quis nostrud exercitation adispaci
+          Join a real-time debate arena where your ideas matter, your arguments <br /> are scored live, and your voice earns the recognition it deserves. <br /> Step into structured, engaging conversations powered by audience <br /> participation and interactive formats.
         </p>
         <button onClick={() => {
           document.getElementById("how-it-works").scrollIntoView({ behavior: "smooth" });

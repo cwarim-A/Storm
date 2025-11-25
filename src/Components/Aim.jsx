@@ -32,7 +32,9 @@ const Aim = () => {
                     </h2>
                     <div className='flex flex-col gap-3 py-5'>
                         <p className='text-[#232323] text-sm md:text-[14px] leading-relaxed lg:leading-loose md:leading-relaxed'>
-                            Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.Lorem ipsum dolor sit amet consectetur. 
+                            Our aim is to redefine how conversations happen online by creating a structured, engaging, and rewarding space for public debate. STORM empowers individuals to express their ideas confidently, challenge opposing viewpoints, and learn through intelligent discourse.
+                            We want to eliminate the chaos often seen in online arguments and replace it with clarity, fairness, and real-time audience participation. Through text, audio, and video debates, we provide a platform where every voice is valued, every contribution is measured, and every debate is powered by community-driven scoring.
+                            Ultimately, our goal is to build a global hub for meaningful dialogue — a place where creators, students, professionals, and enthusiasts can debate trending issues, grow their influence, and turn powerful conversations into opportunities.
                         </p>
                     </div>
                 </div>

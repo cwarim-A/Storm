@@ -54,11 +54,8 @@ const OurMission = () => {
                     </h2>
                     <div className='flex flex-col gap-3 py-5'>
                         <p className='text-[#232323] text-sm md:text-[14px] leading-relaxed lg:leading-loose md:leading-relaxed'>
-                            Lorem ipsum dolor sit amet consectetur. Viverra orci auctor vulputate duis enim imperdiet viverra amet.
-                            Sem facilisis mattis mattis vitae sed id tortor vel. Eget vulputate nibh sagittis nisl condimentum sed
-                            placerat eget lacus. Aenean neque sagittis aliquam tellus neque est. Lorem ipsum dolor sit amet consectetur.
-                            Viverra orci auctor vulputate duis enim imperdiet viverra amet. Sem facilisis mattis mattis vitae sed id tortor vel.
-                            Eget vulputate nibh sagittis nisl condimentum sed placerat eget lacus. Aenean neque sagittis aliquam tellus neque est.
+                            Our mission is to create a dynamic platform where meaningful debates thrive, ideas are recognized, and voices are amplified. STORM seeks to make structured, gamified public discourse accessible to everyone encouraging learning, critical thinking, and community engagement.
+                            We aim to reward insightful contributions, foster respectful dialogue, and provide tools for creators, educators, and thought leaders to connect with audiences globally. By combining real-time participation, scoring, and multimedia formats, STORM turns every debate into an opportunity for growth, recognition, and influence.
                         </p>
                     </div>
                 </div>
