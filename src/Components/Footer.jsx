@@ -64,7 +64,7 @@ const Footer = () => {
                       </Link>  
                   </div>
              </div> */}
-              <div className="bg-[#1E1E1E] w-[100%] sm:w-[350px] md:w-full lg:w-[400px] md:py-5 flex flex-col justify-center items-center rounded-2xl px-2">
+              <div className="bg-[#1E1E1E] w-[100%] h-[250px] sm:w-[350px] md:w-full lg:w-[400px] md:py-5 flex flex-col justify-center items-center rounded-2xl px-2">
                   <img
                       src="/storm-logo-white.png"
                       alt="Storm Logo"

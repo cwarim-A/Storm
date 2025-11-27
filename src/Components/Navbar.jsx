@@ -27,7 +27,7 @@ const Navbar = () => {
         <MdMenu size={25} className="md:hidden cursor-pointer" onClick={() => setOpenMenu(!openMenu)} />
         {
           openMenu && (
-            <div className='absolute bg-white w-full h-[400px] left-0 top-full z-50 flex flex-col  items-center'>
+            <div className='absolute bg-white w-full h-[300px] left-0 top-full z-50 flex flex-col  items-center '>
               <ul className='flex flex-col items-center gap-5 py-10'>
               <li className='text-[#9C8405]'><NavLink to="/" className={({ isActive }) =>
                 isActive ? "text-[#9C8405] font-semibold" : "text-black"}  >Home</NavLink></li>

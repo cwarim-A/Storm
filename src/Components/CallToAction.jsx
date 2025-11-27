@@ -23,7 +23,7 @@ const CallToAction = () => {
     //   </div>
     // </div>
     <div className="flex items-center px-5 py-10 md:px-[15px] lg:px-[180px] md:py-[60px]">
-      <div className="bg-[#E3E3E3] relative rounded-2xl w-full max-w-[950px] h-[550px] md:h-[335px]">
+      <div className="bg-[#E3E3E3] relative rounded-2xl w-full max-w-[950px] h-[620px] md:h-[335px]">
 
         {/* Text Section */}
         <div className="absolute top-[5%] left-[3%] md:top-[12%] md:left-[5%]">
@@ -37,18 +37,18 @@ const CallToAction = () => {
 
           <button className="bg-[#FEDE2B] py-3 px-5 w-[50%] md:w-[35%] lg:w-[30%] text-center rounded-3xl text-[12px] md:text-[14px] font-bold mt-5 relative cursor-pointer">
             Join Debate
-            <span className="absolute -right-[12%] top-1/2 -translate-y-1/2 bg-white h-10 w-10 flex items-center justify-center rounded-full">
+            <span className="absolute -right-[7%] top-1/2 -translate-y-1/2 bg-white h-10 w-10 flex items-center justify-center rounded-full">
               <GoArrowUpRight size={20} />
             </span>
           </button>
         </div>
 
         {/* Image Section */}
-        <div className="absolute top-[77%] right-[5%] md:top-[10%] md:right-[2%] -translate-y-1/2 md:translate-y-0">
+        <div className="absolute top-[72%] right-[5%] md:top-[10%] md:right-[2%] -translate-y-1/2 md:translate-y-0">
           <img
             src="/Home.png"
             alt="Phone Image"
-            className="w-[280px] h-[260px] md:w-[300px] md:h-[270px] lg:w-[330px] lg:h-[300px] object-cover object-center"
+            className="w-[350px] h-[fit-content] md:w-[300px] md:h-[270px] lg:w-[300px] lg:h-auto object-cover object-center"
           />
         </div>
       </div>
